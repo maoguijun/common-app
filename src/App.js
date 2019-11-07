@@ -2,7 +2,7 @@
  * @Author: maoguiun
  * @Date: 2019-11-07 10:08:18
  * @LastEditors: maoguiun
- * @LastEditTime: 2019-11-07 11:58:37
+ * @LastEditTime: 2019-11-07 17:11:06
  * @FilePath: \common-app\src\App.js
  */
 import React from "react";
@@ -27,7 +27,7 @@ function App() {
                     Learn React
                 </a>
             </header>
-            <Park />
+            <Park />;
         </div>
     );
 }

@@ -6,7 +6,7 @@ class Park extends Component {
         this.state = {};
     }
     render() {
-        return <div className="park">park</div>
+        return <div className="park">park</div>;
     }
 }
 
