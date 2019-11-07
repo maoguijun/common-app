@@ -30,7 +30,6 @@
     "start": "node scripts/start.js && npm run format",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "lint:js": "eslint . --fix",
     "precommit": "lint-staged",
     "format": "onchange 'src/**/*.js' 'src/**/*.jsx' 'src/**/*.scss' -- prettier --write {{changed}}",
     "precommit-msg": "echo 'Pre-commit checks.........' && exit 0"
