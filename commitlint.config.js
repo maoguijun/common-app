@@ -2,14 +2,14 @@
  * @Author: maoguiun
  * @Date: 2019-11-07 18:00:49
  * @LastEditors: maoguiun
- * @LastEditTime: 2019-11-07 18:00:59
+ * @LastEditTime: 2019-11-07 18:25:41
  * @FilePath: \common-app\commitlint.config.js
  */
 module.exports = {
     extends: ["@commitlint/config-conventional"],
     rules: {
         "type-enum": [
-            2,
+            1,
             "always",
             [
                 "feat",
