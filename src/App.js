@@ -2,34 +2,30 @@
  * @Author: maoguiun
  * @Date: 2019-11-07 10:08:18
  * @LastEditors: maoguiun
- * @LastEditTime: 2019-11-07 17:11:06
+ * @LastEditTime: 2019-11-12 16:48:37
  * @FilePath: \common-app\src\App.js
  */
-import React from "react";
+import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Park from "./containers/park";
+import Counter from "./containers/counter/container";
+import { Provider } from "react-redux";
 
-function App() {
-    return (
-        <div className="App">
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
-            </header>
-            <Park />;
-        </div>
-    );
+class App extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {};
+    }
+    render() {
+        const { store } = this.props;
+        return (
+            <Provider store={store}>
+                <div className="App">
+                    <Counter />
+                </div>
+            </Provider>
+        );
+    }
 }
 
 export default App;

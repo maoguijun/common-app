@@ -2,7 +2,7 @@
  * @Author: maoguiun
  * @Date: 2019-11-07 18:00:49
  * @LastEditors: maoguiun
- * @LastEditTime: 2019-11-07 18:25:41
+ * @LastEditTime: 2019-11-07 18:42:14
  * @FilePath: \common-app\commitlint.config.js
  */
 module.exports = {
